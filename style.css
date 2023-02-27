@@ -1,0 +1,144 @@
+ body{
+  background-image: url(./image/background.jpg);
+  font-family: "tahoma";
+  
+ }
+
+header{
+    background-color: #B8CB21;
+    height: 200px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 300px;
+    margin:20px;
+}
+
+.content{
+    width:950px;
+    background-color:#fff;
+    margin: 0 auto;  
+}
+
+.nav a{
+ 
+ color:#314723;
+ font-size: 20px;
+}
+
+.who-title{
+    color:#B8CB21;
+    margin-left: 15px;
+}
+
+
+
+.who-are{
+    display:flex;
+    flex-direction:row;
+}
+
+.who-are p{ 
+    color:gray;
+    margin:15px;
+}
+.who-are img{
+width:300px;
+height:130px;
+margin-left:18px;
+}
+
+.buton-redmore{
+    display:flex;
+    justify-content: right;
+
+}
+
+
+.buton-redmore button{
+    display:flex;
+    justify-content: right;
+    background-color:#b8cb21;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    margin-right: 18px;
+} 
+
+
+#paragraphe-2{
+    flex-wrap:nowrap;
+    color:gray;
+    margin-left:15px;
+}
+ 
+.whatwe-do{
+    color:#b8cb21;
+    margin-left: 15px;
+
+}
+
+.what-we-do{
+    display:flex;
+    flex-direction:row;
+}
+
+.what-we-do img{
+    width:300px;
+    height:130px;
+    margin-left:18px;
+ }
+
+ .what-we-do p{ 
+    color:gray;
+    margin:10px;
+}
+
+.paragraphe-whate-we-do{
+    color:gray;
+    margin:16px;
+}
+
+.list-whate-we-are{
+    color:gray;
+    margin:20px;
+}
+
+.redmore-two{
+    display:flex;
+    justify-content: right;
+
+}
+
+.redmore-two button{
+    display:flex;
+    justify-content: right;
+    background-color:#b8cb21;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    margin-right: 18px;
+    margin-bottom: 18px;
+
+}
+
+.foter-and img{
+    margin-top:20px; 
+    width:50px;  
+   
+}
+
+.foter-and{
+    display:block;
+    text-align: center;
+    font-size: 0.7em;
+   margin:0 auto;
+   /* width:110em;*/
+}
+
